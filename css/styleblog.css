@@ -1,0 +1,592 @@
+.section-header01 {
+    text-align: left;
+    margin: 40px 0;
+
+    float: left;
+    width: 75%;
+}
+
+.section-header01 .titel-header01 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+
+}
+
+
+.heder-items {
+    overflow: hidden;
+}
+
+
+/* mod color items navbar*/
+.navbar>ul>li>a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 25px 15px 2px 15px;
+    font-size: 16px;
+}
+
+
+
+/**/
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 10px;
+    list-style: none;
+    background-color: #f8f8f8;
+    width: 23%;
+    float: right;
+    margin: 40px 0;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 2px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: var(--prcolor);
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: var(--prcolor);
+    text-decoration: underline;
+}
+
+/**/
+/**/
+
+
+/*blog-items*/
+
+.blog-items {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.blog-item {
+    float: left;
+
+
+}
+
+.blog-item-left {
+
+
+    margin-right: 2%;
+    width: 70%;
+
+}
+
+.blog-item-right {
+    width: 28%;
+
+}
+
+
+.blog-item .img img {
+    width: 100%;
+}
+
+/*margin-righr*/
+
+.blog-info {
+    padding: 0px;
+}
+
+.blog-list li {
+    display: inline-block;
+
+    font-size: 14px;
+}
+
+.blog-titre {
+    margin: 20px 0 12px 0;
+}
+
+.blog-des {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+.tags {
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+
+.blog-tags {
+    float: left;
+    width: 10%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.tags-list {
+    list-style: none;
+    float: left;
+    width: 90%;
+    font-weight: bold;
+
+}
+
+
+.tags-list li {
+    display: inline-block;
+    margin: 0 7px 10px 0;
+    height: 40px;
+    background-color: #e8e8e8;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.tags-list li i {
+    color: var(--prcolor);
+    margin-right: 4px;
+}
+
+
+/*blogger*/
+
+.Blogger {
+    margin-top: 50px;
+    border: 1px solid #eee;
+}
+
+.Blogger-items {
+    overflow: hidden;
+}
+
+
+.Blogger-item-left {
+    width: 28%;
+    float: left;
+
+}
+
+.Blogger-item-right {
+    width: 70%;
+    float: left;
+}
+
+.Blogger-item-left img {
+    width: 100%;
+    padding: 5%;
+}
+
+
+
+.Blogger-item-right {
+    overflow: hidden;
+}
+
+.Blogger-info-titel {
+    float: left;
+    width: 50%;
+    padding: 13px 0 0 0;
+    text-transform: capitalize;
+}
+
+.Blogger-info-links {
+    float: left;
+    width: 50%;
+
+    list-style: none;
+    margin: 20px 0;
+    text-align: right;
+
+}
+
+.Blogger-info-links li {
+    display: inline-block;
+    position: relative;
+}
+
+.Blogger-info-links li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--prcolor);
+    color: white;
+
+
+}
+
+.Blogger-info-links li a i {
+    /*line-height: 40px;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.footer-links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--prcolor);
+    color: white;
+    margin: 0 5px;
+
+    border-radius: 40%;
+}
+
+
+.Blogger-des {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+/*comments*/
+
+.comments {
+    margin-top: 50px;
+    width: 40%;
+}
+
+.comments-items {
+    overflow: hidden;
+}
+
+.comments-titel {
+    float: left;
+
+
+}
+
+.comments-icon {
+    float: left;
+
+    color: var(--prcolor);
+    margin-left: 15px;
+}
+
+
+
+/*comments-c*/
+
+.comments-c {
+    margin-top: 27px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+}
+
+.comments-c-left {
+    float: left;
+    width: 15%;
+}
+
+
+
+.comments-c-left img {
+    width: 100%;
+    padding: 10px;
+}
+
+.comments-c-right {
+    float: left;
+    width: 80%;
+}
+
+.comments-c-info-top {
+    overflow: hidden;
+    padding: 12px 0 0 0;
+}
+
+.comments-c-info-top-titel {
+    float: left;
+    width: 25%;
+}
+
+.comments-c-info-top-time {
+    float: left;
+    width: 25%;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+.comments-c-info-top-link {
+    float: left;
+    width: 50%;
+    text-align: right;
+
+}
+
+.comments-c-info-top-link i {
+    margin-left: 5px;
+}
+
+
+/*form*/
+
+.form-blog {
+    margin-top: 50px;
+}
+
+.form-container {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.form-item {
+    overflow: hidden;
+}
+
+
+.form-item .item {
+    width: 45%;
+    float: left;
+    height: 45px;
+    padding: 0 5px;
+}
+
+input {
+    border: 0;
+    background: #e0e0e0;
+}
+
+.form-item .item.mg {
+    margin-left: 2%;
+}
+
+
+
+textarea {
+
+    display: block;
+    width: 92%;
+    height: 100px;
+    background: #e0e0e0;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+
+.touch-bt {
+    border: 0;
+    width: 200px;
+    height: 50px;
+    display: block;
+    border-radius: 5px;
+    margin: 20px 0;
+    color: #fff;
+    background-color: var(--prcolor);
+
+}
+
+
+
+
+
+/*blog item right*/
+
+
+
+/* start aside search style */
+.search {
+    position: relative;
+}
+
+.search input {
+    height: 30px;
+    border: 0;
+    width: 100%;
+    background: #e8e8e8;
+    padding: 5px;
+}
+
+.search .icon {
+    position: absolute;
+    color: var(--prcolor);
+    right: 10px;
+    top: 6px;
+}
+
+
+
+/* start categoru section style */
+
+.category .category-title {
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+    margin: 20px 0;
+}
+
+.category .category-title::after {
+    content: "";
+    display: block;
+    background: var(--prcolor);
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.category li {
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+    color: gray;
+    padding: 5px;
+
+
+}
+
+.category li a {
+
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+
+
+}
+
+.category li:hover a {
+
+    color: var(--prcolor);
+}
+
+.category li span {
+    color: var(--prcolor);
+    width: 30%;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.category li:last-child {
+    border-bottom: 1px solid #e8e8e8;
+    overflow: hidden;
+    color: gray;
+    padding: 5px;
+}
+
+/* start popular post style */
+
+.popular-post-title {
+
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+}
+
+.popular-post-title::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    background: var(--prcolor);
+}
+
+.popular-post-item {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.popular-img {
+    width: 30%;
+    height: 70px;
+    position: absolute;
+
+}
+
+.popular-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.popular-desc {
+    padding-left: 100px;
+
+}
+
+.popular-desc .title {
+    margin-bottom: 10px;
+}
+
+.popular-post .popular-post-item:nth-child(3) .title a {
+    color: var(--prcolor);
+}
+
+.popular-desc .title a {
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+}
+
+.popular-desc .title:hover a {
+
+    color: var(--prcolor);
+}
+
+.popular-desc .date {
+    color: var(--prcolor);
+}
+
+/* start tags style */
+
+
+.tags-title {
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: rgb(48, 47, 47);
+}
+
+.tags-title::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    background: var(--prcolor);
+}
+
+.tags-item span {
+    display: inline-block;
+    padding: 5px;
+    background: #e8e8e8;
+    margin: 0 0 3px 0;
+
+}
